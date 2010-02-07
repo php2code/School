@@ -18,6 +18,7 @@ if(isset($_SESSION['userType']))
 /*
 
 test comment by ritesh
+sfdsdf
 if($_POST) {
 	$countryId = $_POST['countryId'];
 	$stateId = $_POST['stateId'];
