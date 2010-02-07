@@ -1,0 +1,18 @@
+firstName	lastName	guardianName	dateOfBirth	Attendence	AttendenceStatus	courseId	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/21/2009	A	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/22/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/23/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/24/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/25/2009	P	1	EOL
+	Singh	Sushila Singh	7/23/1983	8/26/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/27/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/28/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/29/2009	A	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/30/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	8/31/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/1/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/2/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/3/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/4/2009	P	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/5/2009	A	1	EOL
+Ajay	Singh	Sushila Singh	7/23/1983	9/6/2009	P	1	EOL

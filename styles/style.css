@@ -1,0 +1,332 @@
+body{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0px;
+
+}
+
+P {
+	FONT-WEIGHT: normal; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	margin:5px; 
+	line-height:17px;
+	text-align:justify;
+	COLOR: #7f7f7f; 
+	TEXT-DECORATION: none
+}
+TR {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+TD {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	color:#000;
+	FONT-FAMILY:Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none
+}
+
+A {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:unknown {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+
+
+A.more {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:active {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:visited {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:hover {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+
+}
+
+.header{
+background-image:url(../images/banner.jpg);
+width:968px;
+height:215px;
+background-repeat:no-repeat;}
+
+
+.heading{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000;
+font-weight:bold;}
+
+.loginbg{
+background-image:url(../images/bg.jpg);
+background-repeat:repeat-y;
+background-position:right;
+width:311px;}
+
+.loginbg2{
+background-image:url(../images/personal_bg.jpg);
+background-repeat:repeat-y;
+background-position:right;
+width:311px;}
+
+.redtext {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#b55304;
+font-weight:bold;
+}
+
+/*New Css by Shrawan*/
+
+.NormalInput{	
+	width:130px;
+	height:16px;
+	font-size:12px;
+	font-weight:normal;
+	border:solid 1px #2161a1;
+}
+
+.SelectBox{	
+	width:120px;
+	height:20px;
+	font-size:12px;
+	font-weight:normal;
+	border:solid 1px #2161a1;
+}
+
+.LoginInput{
+	border:#76ae12 solid 1px;
+	font-size:12px;
+	font-weight:normal;
+	width:140px;
+	height:17px;
+}
+.yelloBg{
+	background-color:#fff59f;
+}
+.Smalltextarea{
+		border:solid 1px #2161a1;
+		width:135px;
+		height:80px
+}
+
+/*Css for Grid view added by shrawan..15.10.09*/
+
+.GridStructure{
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+.GridStructure td{
+	border-bottom:1px solid #7cb7d1;
+	border-left:1px solid #7cb7d1;
+	border-right:1px solid #7cb7d1;
+	height:20px;
+	font-size:11px;
+	line-height:20px
+}
+.GridStructure tr:hover td{
+background-color:#ffba4d;
+	color:#063;
+}
+.GridStructure1 tr:hover td{
+background-color:#ffba4d;
+	color:#063;
+}
+.BorderTop{
+	border-top:1px solid #7cb7d1;
+}
+.BorderLeft{
+	border-left:none !important;
+	padding-left:3px;
+}
+.GridDefault{
+	background-color:#b4def6 ;
+	color:#036;
+}
+.GridAlter{
+	background-color:#f1f1f1;
+	color:#036;
+}
+.GridSelect{
+	background-color:#ffba4d;
+	color:#063;
+}
+.subheading{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	height:30px;
+	font-size:12px;
+	line-height:30px;
+	color:#3399ff
+	
+}
+
+#day
+{
+	margin-right:30px;
+}
+
+#attendance-present
+{
+	color:#3399ff
+}
+
+#attendance-absent
+{
+	color:red;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 95%;
+	text-align: left;
+	border-collapse: collapse;
+	
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #b9c9fe url('table-images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #b9c9fe url('table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #669;
+	height:60px;
+	
+	
+}
+
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+}
+/*#rounded-corner tbody tr:hover td*/
+#rounded-corner tbody td:hover 
+{
+	background: #d0dafd;
+	
+}
+
+
+
+#mainContainer{
+		width:660px;
+		margin:0 auto;
+		text-align:left;
+		height:100%;
+		background-color:#FFF;
+		border-left:3px double #000;
+		border-right:3px double #000;
+	}
+	#formContent{
+		padding:5px;
+	}
+	/* END CSS ONLY NEEDED IN DEMO */
+	
+	
+	/* Big box with list of options */
+	#ajax_listOfOptions{
+		position:absolute;	/* Never change this one */
+		width:175px;	/* Width of box */
+		height:250px;	/* Height of box */
+		overflow:auto;	/* Scrolling features */
+		border:1px solid #317082;	/* Dark green border */
+		background-color:#FFF;	/* White background color */
+		text-align:left;
+		font-size:0.9em;
+		z-index:100;
+	}
+	#ajax_listOfOptions div{	/* General rule for both .optionDiv and .optionDivSelected */
+		margin:1px;		
+		padding:1px;
+		cursor:pointer;
+		font-size:0.9em;
+	}
+	#ajax_listOfOptions .optionDiv{	/* Div for each item in list */
+		
+	}
+	#ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+		background-color:#317082;
+		color:#FFF;
+	}
+	#ajax_listOfOptions_iframe{
+		background-color:#F00;
+		position:absolute;
+		z-index:5;
+	}
+	
+	form{
+		display:inline;
+	}
+	.LinkTable td{
+	border:1px solid #00CCFF;
+	border-right:none;
+	color:white;
+	font-size:14px ;
+	font-weight:bold ;
+	text-align:center;
+	}

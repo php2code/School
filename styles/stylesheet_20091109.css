@@ -1,0 +1,186 @@
+body{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0px;
+
+}
+
+P {
+	FONT-WEIGHT: normal; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	margin:5px; 
+	line-height:17px;
+	text-align:justify;
+	COLOR: #7f7f7f; 
+	TEXT-DECORATION: none
+}
+TR {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+TD {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	color:#000;
+	FONT-FAMILY:Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none
+}
+
+A {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:unknown {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	COLOR: #000; 
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+
+
+A.more {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:active {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:visited {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+}
+A.more:hover {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#1574de;
+font-weight:bold;
+
+}
+
+.header{
+background-image:url(../images/banner.jpg);
+width:968px;
+height:215px;
+background-repeat:no-repeat;}
+
+
+.heading{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000;
+font-weight:bold;}
+
+.loginbg{
+background-image:url(../images/bg.jpg);
+background-repeat:repeat-y;
+background-position:right;
+width:311px;}
+
+.loginbg2{
+background-image:url(../images/personal_bg.jpg);
+background-repeat:repeat-y;
+background-position:right;
+width:311px;}
+
+.redtext {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#b55304;
+font-weight:bold;
+}
+
+/*New Css by Shrawan*/
+
+.NormalInput{	
+	width:130px;
+	height:16px;
+	font-size:12px;
+	font-weight:normal;
+	border:solid 1px #2161a1;
+}
+
+.SelectBox{	
+	width:120px;
+	height:20px;
+	font-size:12px;
+	font-weight:normal;
+	border:solid 1px #2161a1;
+}
+
+.LoginInput{
+	border:#76ae12 solid 1px;
+	font-size:12px;
+	font-weight:normal;
+	width:140px;
+	height:17px;
+}
+.yelloBg{
+	background-color:#fff59f;
+}
+.Smalltextarea{
+		border:solid 1px #2161a1;
+		width:135px;
+		height:80px
+}
+
+/*Css for Grid view added by shrawan..15.10.09*/
+
+.GridStructure{
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+.GridStructure td{
+	border-bottom:1px solid #7cb7d1;
+	border-left:1px solid #7cb7d1;
+	border-right:1px solid #7cb7d1;
+	height:20px;
+	font-size:11px;
+	line-height:20px
+}
+.BorderTop{
+	border-top:1px solid #7cb7d1;
+}
+.BorderLeft{
+	border-left:none !important;
+	padding-left:3px;
+}
+.GridDefault{
+	background-color:#b4def6 ;
+	color:#036;
+}
+.GridAlter{
+	background-color:#f1f1f1;
+	color:#036;
+}
+.GridSelect{
+	background-color:#ffba4d;
+	color:#063;
+}

@@ -1,0 +1,7 @@
+ErrorDocument 404 /school/notfound.html
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^school.app4u.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.school.app4u.info$
+RewriteRule ^/?$ "http\:\/\/school\.app4u\.info\/app\/" [R=301,L]
+
+
