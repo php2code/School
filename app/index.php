@@ -16,6 +16,8 @@ if(isset($_SESSION['userType']))
 		header("location: teacher/home.php");
 }
 /*
+
+test comment by ritesh
 if($_POST) {
 	$countryId = $_POST['countryId'];
 	$stateId = $_POST['stateId'];
