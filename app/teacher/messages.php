@@ -5,6 +5,7 @@ if(!isset($_SESSION['userId'])) {
 	header("location:".SITEURL."app/index.php");
 	exit;
 }
+$objTpl->assign('module_heading', "My Inbox");
 require_once(INCLUDE_DIR.'messages.php');
 $out = ob_get_clean();
 $user = $_SESSION['userId'];

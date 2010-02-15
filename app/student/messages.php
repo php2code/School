@@ -7,6 +7,7 @@ if(!isset($_SESSION['userId'])) {
 	header("location:".SITEURL."app/index.php");
 	exit;
 }
+$objTpl->assign('module_heading', "My Inbox");
 
 $user = $_SESSION['userId'];
 $objMsg = new Messages();
@@ -69,5 +70,6 @@ $messages = $objMsg->getUserMessages($user);
 $objTpl->assign('login_error', $login_error);
 $objTpl->assign('unread', $unread);
 $objTpl->assign('messages', $messages);
+
 $objTpl->display('messages.tpl');
 ?>

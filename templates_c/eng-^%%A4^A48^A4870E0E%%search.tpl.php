@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.22, created on 2010-02-07 08:05:07
+<?php /* Smarty version 2.6.22, created on 2010-02-15 11:00:59
          compiled from teacher/search.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'getAttendance', 'teacher/search.tpl', 161, false),)), $this); ?>

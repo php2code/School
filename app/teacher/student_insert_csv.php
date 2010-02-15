@@ -6,6 +6,7 @@ if(!isset($_SESSION['userId'])) {
 	header("location:".SITEURL."app/index.php");
 	exit;
 }
+$objTpl->assign('module_heading', "Attendance");
 function valid_input_date($date)
 {
 	$array_date	=	explode("/",$date);

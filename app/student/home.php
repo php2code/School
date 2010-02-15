@@ -5,6 +5,7 @@ if(!isset($_SESSION['userId'])) {
 	header("location:".SITEURL."app/index.php");
 	exit;
 }
+$objTpl->assign('module_heading', "My Home");
 require_once(INCLUDE_DIR.'student.php');
 $out = ob_get_clean();
 
@@ -23,5 +24,6 @@ $unread = $objUser->getUnreadMsgs();
 $objTpl->assign('login_error', $login_error);
 $objTpl->assign('unread', $unread);
 $objTpl->assign('student', $student);
+
 $objTpl->display('student/home.tpl');
 ?>

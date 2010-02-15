@@ -15,7 +15,7 @@ if ($_SERVER['HTTP_HOST'] == "localhost" || $_SERVER['HTTP_HOST'] == "127.0.0.1"
 if(LOCAL_MODE) {
 	$db_driver[0]		= "mysql";
 	$db_user[0]			= "root";
-	$db_pass[0]			= "123456";
+	$db_pass[0]			= "";
 	$db_host[0]			= "localhost";
 	$db_name[0]			= "school";
 	define('SITEURL'	, 'http://localhost/school/');

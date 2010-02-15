@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.22, created on 2010-02-07 13:20:39
+<?php /* Smarty version 2.6.22, created on 2010-02-15 11:01:09
          compiled from header.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -212,7 +212,8 @@ images/school_logo/<?php if ($_SESSION['schoolLogo']): ?><?php echo $_SESSION['s
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td align="right"><a href="#" class="more">More...</a></td>
+					<td align="right"><a href="<?php echo $this->_tpl_vars['SITEURL']; ?>
+app/aboutus.php" class="more">More...</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -358,3 +359,20 @@ images/login.jpg" width="108" height="29" border="0" onclick="setSchool(this.val
 
 </form>
 <!-- Login Strip --->
+
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="968">
+	<tr>
+		<td bgcolor="#ffe503" valign="top">
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr valign='top'>
+				 <td height='40' width="100%" class="PageHeading"><?php echo $this->_tpl_vars['module_heading']; ?>
+</td>
+			  </tr>
+			</table>
+		</td>
+	</tr>
+	
+</table>

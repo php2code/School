@@ -197,7 +197,7 @@
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td align="right"><a href="#" class="more">More...</a></td>
+					<td align="right"><a href="{$SITEURL}app/aboutus.php" class="more">More...</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</table>
@@ -303,3 +303,19 @@
 
 </form>
 <!-- Login Strip --->
+
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="968">
+	<tr>
+		<td bgcolor="#ffe503" valign="top">
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr valign='top'>
+				 <td height='40' width="100%" class="PageHeading">{$module_heading}</td>
+			  </tr>
+			</table>
+		</td>
+	</tr>
+	
+</table>

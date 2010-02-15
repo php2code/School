@@ -7,7 +7,7 @@ if(!isset($_SESSION['userId'])) {
 	header("location:".SITEURL."app/index.php");
 	exit;
 }
-
+$objTpl->assign('module_heading', "Attendance");
 // fetching student attendance all records -->
 $student_id = $_SESSION['userId'];
 //setting month -->

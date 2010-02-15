@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.22, created on 2010-02-07 06:58:09
+<?php /* Smarty version 2.6.22, created on 2010-02-15 10:29:39
          compiled from student/left_menu.tpl */ ?>
 <table border="0" cellspacing="0" width="100%" cellpadding="5"  align="center">
 	<tr style="height:45px;">
